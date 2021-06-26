@@ -3,34 +3,34 @@
 @section('content')
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <!-- BSTORE-BREADCRUMB START -->
+            <!-- BREADCRUMB START -->
             <div class="bstore-breadcrumb">
-                <a href="index.html">HOMe</a>
+                <a href="index.html">Trang Chủ</a>
                 <span><i class="fa fa-caret-right"></i></span>
-                <span>Women</span>
+                <span>ĐIỆN THOẠI</span>
             </div>
-            <!-- BSTORE-BREADCRUMB END -->
+            <!-- BREADCRUMB END -->
         </div>
     </div>
     <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
             <!-- PRODUCT-LEFT-SIDEBAR START -->
             <div class="product-left-sidebar">
-                <h2 class="left-title pro-g-page-title">Catalog</h2>
+                <h2 class="left-title pro-g-page-title">Mục Lục</h2>
                 <!-- SINGLE SIDEBAR ENABLED FILTERS START -->
                 <div class="product-single-sidebar">
-                    <span class="sidebar-title">ENABLED FILTERS:</span>
+                    <span class="sidebar-title">Mở phần lọc:</span>
                     <ul class="filtering-menu">
                         <li>
-                            Categories: Dresses
+                            Danh mục: Điện Thoại
                             <a href="#"><i class="fa fa-remove"></i></a>
                         </li>
                         <li>
-                            Avaiale: In stock
+                            Có Sẵn: Trong Kho
                             <a href="#"><i class="fa fa-remove"></i></a>
                         </li>
                         <li>
-                            Categories: Dresses
+                            Danh mục: Laptop
                             <a href="#"><i class="fa fa-remove"></i></a>
                         </li>
                     </ul>
@@ -38,73 +38,80 @@
                 <!-- SINGLE SIDEBAR ENABLED FILTERS END -->
                 <!-- SINGLE SIDEBAR CATEGORIES START -->
                 <div class="product-single-sidebar">
-                    <span class="sidebar-title">Categories</span>
+                    <span class="sidebar-title">Danh mục:</span>
                     <ul>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="categories"/>
                                 <span></span>
                             </label>
-                            <a href="#">Tops<span> (12)</span></a>
+                            <a href="#">Điện Thoại<span> (12)</span></a>
                         </li>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="categories"/>
                                 <span></span>
                             </label>
-                            <a href="#">Dresses<span> (13)</span></a>
+                            <a href="#">Máy Tính<span> (13)</span></a>
                         </li>
                     </ul>
                 </div>
                 <!-- SINGLE SIDEBAR CATEGORIES END -->
                 <!-- SINGLE SIDEBAR AVAILABILITY START -->
                 <div class="product-single-sidebar">
-                    <span class="sidebar-title">Availability</span>
+                    <span class="sidebar-title">Có sẵn</span>
                     <ul>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="availability"/>
                                 <span></span>
                             </label>
-                            <a href="#">In stock<span> (13)</span></a>
+                            <a href="#">Trong Kho<span> (13)</span></a>
                         </li>
                     </ul>
                 </div>
                 <!-- SINGLE SIDEBAR AVAILABILITY END -->
                 <!-- SINGLE SIDEBAR CONDITION START -->
                 <div class="product-single-sidebar">
-                    <span class="sidebar-title">Condition</span>
+                    <span class="sidebar-title">Tình Trạng Sản Phẩm</span>
                     <ul>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="condition"/>
                                 <span></span>
                             </label>
-                            <a href="#">new<span> (13)</span></a>
+                            <a href="#">Giảm Giá<span> (13)</span></a>
+                        </li>
+                        <li>
+                            <label class="cheker">
+                                <input type="checkbox" name="condition"/>
+                                <span></span>
+                            </label>
+                            <a href="#">Mới<span> (13)</span></a>
                         </li>
                     </ul>
                 </div>
                 <!-- SINGLE SIDEBAR CONDITION END -->
                 <!-- SINGLE SIDEBAR MANUFACTURER START -->
                 <div class="product-single-sidebar">
-                    <span class="sidebar-title">Manufacturer</span>
+                    <span class="sidebar-title">Người Tạo Ra</span>
                     <ul>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="manufacturer"/>
                                 <span></span>
                             </label>
-                            <a href="#">Fashion Manufacturer<span> (13)</span></a>
+                            <a href="#">Mark Bezze<span> (13)</span></a>
                         </li>
                     </ul>
                 </div>
                 <!-- SINGLE SIDEBAR MANUFACTURER END -->
                 <!-- SINGLE SIDEBAR PRICE START -->
                 <div class="product-single-sidebar">
-                    <span class="sidebar-title">Price</span>
+                    <span class="sidebar-title">Giá Cả</span>
                     <ul>
                         <li>
-                            <label><strong>Range:</strong><input type="text" id="slidevalue" /></label>
+                            <label><strong>Phạm Vi:</strong><input type="text" id="slidevalue" /></label>
                         </li>
                         <li>
                             <div id="price-range"></div>
@@ -114,35 +121,35 @@
                 <!-- SINGLE SIDEBAR PRICE END -->
                 <!-- SINGLE SIDEBAR SIZE START -->
                 <div class="product-single-sidebar">
-                    <span class="sidebar-title">Size</span>
+                    <span class="sidebar-title">Dung Lượng</span>
                     <ul>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="Size"/>
                                 <span></span>
                             </label>
-                            <a href="#">S<span> (10)</span></a>
+                            <a href="#">16GB<span> (10)</span></a>
                         </li>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="Size"/>
                                 <span></span>
                             </label>
-                            <a href="#">m<span> (10)</span></a>
+                            <a href="#">32GB<span> (10)</span></a>
                         </li>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="Size"/>
                                 <span></span>
                             </label>
-                            <a href="#">l<span> (10)</span></a>
+                            <a href="#">64GB<span> (10)</span></a>
                         </li>
                     </ul>
                 </div>
                 <!-- SINGLE SIDEBAR SIZE END -->
                 <!-- SINGLE SIDEBAR COLOR START -->
                 <div class="product-single-sidebar">
-                    <span class="sidebar-title">Color</span>
+                    <span class="sidebar-title">Màu Sắc</span>
                     <ul class="product-color-var">
                         <li>
                             <i class="fa fa-square color-beige"></i>
@@ -181,98 +188,98 @@
                 <!-- SINGLE SIDEBAR COLOR END -->
                 <!-- SINGLE SIDEBAR COMPOSITIONS START -->
                 <div class="product-single-sidebar">
-                    <span class="sidebar-title">Compositions</span>
+                    <span class="sidebar-title">Tạm để trống</span>
                     <ul>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="compositions"/>
                                 <span></span>
                             </label>
-                            <a href="#">Cotton<span>(8)</span></a>
+                            <a href="#"><span>(8)</span></a>
                         </li>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="compositions"/>
                                 <span></span>
                             </label>
-                            <a href="#"> Polyester<span>(3)</span></a>
+                            <a href="#"> <span>(3)</span></a>
                         </li>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="compositions"/>
                                 <span></span>
                             </label>
-                            <a href="#"> Viscose<span>(2)</span></a>
+                            <a href="#"> <span>(2)</span></a>
                         </li>
                     </ul>
                 </div>
                 <!-- SINGLE SIDEBAR COMPOSITIONS END -->
                 <!-- SINGLE SIDEBAR STYLES START -->
                 <div class="product-single-sidebar">
-                    <span class="sidebar-title">Styles</span>
+                    <span class="sidebar-title">Tạm để trống</span>
                     <ul>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="styles"/>
                                 <span></span>
                             </label>
-                            <a href="#">Casual<span>(5)</span></a>
+                            <a href="#"><span>(5)</span></a>
                         </li>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="styles"/>
                                 <span></span>
                             </label>
-                            <a href="#">Dressy<span>(1)</span></a>
+                            <a href="#"><span>(1)</span></a>
                         </li>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="styles"/>
                                 <span></span>
                             </label>
-                            <a href="#">Girly<span>(7)</span></a>
+                            <a href="#"><span>(7)</span></a>
                         </li>
                     </ul>
                 </div>
                 <!-- SINGLE SIDEBAR STYLES END -->
                 <!-- SINGLE SIDEBAR PROPERTIES START -->
                 <div class="product-single-sidebar">
-                    <span class="sidebar-title">Properties</span>
+                    <span class="sidebar-title">Tạm để trống</span>
                     <ul>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="properties"/>
                                 <span></span>
                             </label>
-                            <a href="#">Colorful Dress<span>(4)</span></a>
+                            <a href="#"><span>(4)</span></a>
                         </li>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="properties"/>
                                 <span></span>
                             </label>
-                            <a href="#">Maxi Dress <span>(1)</span></a>
+                            <a href="#"><span>(1)</span></a>
                         </li>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="properties"/>
                                 <span></span>
                             </label>
-                            <a href="#">Midi Dress<span>(2)</span></a>
+                            <a href="#"><span>(2)</span></a>
                         </li>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="properties"/>
                                 <span></span>
                             </label>
-                            <a href="#">Short Dress<span>(2)</span></a>
+                            <a href="#"><span>(2)</span></a>
                         </li>
                         <li>
                             <label class="cheker">
                                 <input type="checkbox" name="properties"/>
                                 <span></span>
                             </label>
-                            <a href="#"> Short Sleeve<span>(4)</span></a>
+                            <a href="#"><span>(4)</span></a>
                         </li>
                     </ul>
                 </div>
@@ -281,17 +288,17 @@
             <!-- PRODUCT-LEFT-SIDEBAR END -->
             <!-- SINGLE SIDEBAR TAG START -->
             <div class="product-left-sidebar">
-                <h2 class="left-title">Tags </h2>
+                <h2 class="left-title">Gắn Thẻ</h2>
                 <div class="category-tag">
-                    <a href="#">fashion</a>
-                    <a href="#">handbags</a>
-                    <a href="#">women</a>
-                    <a href="#">men</a>
-                    <a href="#">kids</a>
-                    <a href="#">New</a>
-                    <a href="#">Accessories</a>
-                    <a href="#">clothing</a>
-                    <a href="#">New</a>
+                    <a href="#">Điện Thoại</a>
+                    <a href="#">Dung Lượng</a>
+                    <a href="#">Màu Sắc</a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
                 </div>
             </div>
             <!-- SINGLE SIDEBAR TAG END -->
@@ -303,9 +310,9 @@
                     <div class="category-header-image">
                         <img src="/frontend/img/category-header.jpg" alt="category-header" />
                         <div class="category-header-text">
-                            <h2>Women </h2>
-                            <strong>You will find here all woman fashion collections.</strong>
-                            <p>This category includes all the basics of your wardrobe and much more:<br /> shoes, accessories, printed t-shirts, feminine dresses, women's jeans!</p>
+                            <h2>Điện Thoại </h2>
+                            <strong>Bạn có thể tìm thấy chiếc điện thoại phù hợp với nhu cầu của bạn</strong>
+                            <p>Danh mục này bao gồm nhiều chiếc điện thoại <br /> đáp ứng yêu cầu của bạn như về màu sắc, dung lượng pin, cấu hình mạnh mẽ</p>
                         </div>
                     </div>
                 </div>
@@ -313,7 +320,7 @@
                 <div class="product-category-title">
                     <!-- PRODUCT-CATEGORY-TITLE START -->
                     <h1>
-                        <span class="cat-name">Women</span>
+                        <span class="cat-name">Điện Thoại</span>
                         <span class="count-product">There are 13 products.</span>
                     </h1>
                     <!-- PRODUCT-CATEGORY-TITLE END -->

@@ -12,39 +12,10 @@
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="header-left-menu">
                     <div class="welcome-info">
-                        Welcome <span>BootExperts</span>
+                        <span><i class="fa fa-phone">: +{{ $settings-> hotline }}</i></span>
                     </div>
-                    <div class="currenty-converter">
-                        <form method="post" action="#" id="currency-set">
-                            <div class="current-currency">
-                                <span class="cur-label">Currency : </span><strong>USD</strong>
-                            </div>
-                            <ul class="currency-list currency-toogle">
-                                <li>
-                                    <a title="Dollar (USD)" href="#">Dollar (USD)</a>
-                                </li>
-                                <li>
-                                    <a title="Euro (EUR)" href="#">Euro (EUR)</a>
-                                </li>
-                            </ul>
-                        </form>
-                    </div>
-                    <div class="selected-language">
-                        <div class="current-lang">
-                            <span class="current-lang-label">Language : </span><strong>English</strong>
-                        </div>
-                        <ul class="languages-choose language-toogle">
-                            <li>
-                                <a href="#" title="English">
-                                    <span>English</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" title="Français (French)">
-                                    <span>Français</span>
-                                </a>
-                            </li>
-                        </ul>
+                    <div class="welcome-info">
+                        <span>Chào mừng quý khách đến với Cửa Hàng Shop Mobile</span>
                     </div>
                 </div>
             </div>
@@ -54,11 +25,11 @@
                 <div class="header-right-menu">
                     <nav>
                         <ul class="list-inline">
-                            <li><a href="checkout.html">Check Out</a></li>
-                            <li><a href="wishlist.html">Wishlist</a></li>
-                            <li><a href="my-account.html">My Account</a></li>
-                            <li><a href="cart.html">My Cart</a></li>
-                            <li><a href="registration.html">Sign in</a></li>
+                            <li><a href="checkout.html">Thanh Toán</a></li>
+                            <li><a href="wishlist.html">Danh Sách Mong Ước</a></li>
+                            <li><a href="my-account.html">Tài Khoản</a></li>
+                            <li><a href="cart.html">Giỏ Hàng</a></li>
+                            <li><a href="registration.html">Đăng Nhập</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -75,49 +46,24 @@
             <div class="col-sm-12">
                 <!-- LOGO START -->
                 <div class="logo">
-                    <a href="index.html"><img src="/frontend/img/mobileshop2.png" alt="bstore logo" /></a>
+                    <a href="index.html"><img src="/frontend/img/mobileshop3.png" alt="MobileShop logo" /></a>
                 </div>
                 <!-- LOGO END -->
-                <!-- HEADER-RIGHT-CALLUS START -->
-                <div class="header-right-callus">
-                    <h3>call us free</h3>
-                    <span>0123-456-789</span>
-                </div>
-                <!-- HEADER-RIGHT-CALLUS END -->
                 <!-- CATEGORYS-PRODUCT-SEARCH START -->
                 <div class="categorys-product-search">
                     <form action="#" method="get" class="search-form-cat">
                         <div class="search-product form-group">
                             <select name="catsearch" class="cat-search">
-                                <option value="">Categories</option>
-                                <option value="2">--Women</option>
-                                <option value="3">---T-Shirts</option>
-                                <option value="4">--Men</option>
-                                <option value="5">----Shoose</option>
-                                <option value="6">--Dress</option>
-                                <option value="7">----Tops</option>
-                                <option value="8">---Casual</option>
-                                <option value="9">--Evening</option>
-                                <option value="10">--Summer</option>
-                                <option value="11">---sports</option>
-                                <option value="12">--day</option>
-                                <option value="13">--evening</option>
-                                <option value="14">-----Blouse</option>
-                                <option value="15">--handba</option>
-                                <option value="16">--phone</option>
-                                <option value="17">-house</option>
-                                <option value="18">--Beauty</option>
-                                <option value="19">--health</option>
-                                <option value="20">---clothing</option>
-                                <option value="21">---kids</option>
-                                <option value="22">--Dresse</option>
-                                <option value="22">---Casual</option>
-                                <option value="23">--day</option>
-                                <option value="24">--evening</option>
-                                <option value="24">---Blouse</option>
-                                <option value="25">-handb</option>
-                                <option value="66">--phone</option>
-                                <option value="27">---house</option>
+                                <option value="">Danh Mục SP</option>
+                                <option value="2">Điện Thoại</option>
+                                <option value="3">>>Iphone</option>
+                                <option value="4">>>Samsung</option>
+                                <option value="5">>>Oppo</option>
+                                <option value="6">Máy tính</option>
+                                <option value="7">>>Dell</option>
+                                <option value="8">>>Lenovo</option>
+                                <option value="9">>>Asus</option>
+                                <option value="10">>>Acer</option>
                             </select>
                             <input type="text" class="form-control search-form" name="s" placeholder="Enter your search key ... " />
                             <button class="search-button" value="Search" name="s" type="submit">
@@ -142,7 +88,7 @@
                     <div class="shopping-cart">
                         <a class="shop-link" href="cart.html" title="View my shopping cart">
                             <i class="fa fa-shopping-cart cart-icon"></i>
-                            <b>My Cart</b>
+                            <b>Giỏ Hàng</b>
                             <span class="ajax-cart-quantity">2</span>
                         </a>
                         <div class="shipping-cart-overly">
@@ -152,9 +98,9 @@
                                     <a href="#"><img src="/frontend/img/shopping-image.jpg" alt="shopping image" /></a>
                                 </div>
                                 <div class="shipping-item-text">
-                                    <span>2 <span class="pro-quan-x">x</span> <a href="#" class="pro-cat">Watch</a></span>
+                                    <span>2 <span class="pro-quan-x">x</span> <a href="#" class="pro-cat">Iphone</a></span>
                                     <span class="pro-quality"><a href="#">S,Black</a></span>
-                                    <p>$22.95</p>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="shipping-item">
@@ -191,16 +137,10 @@
                 <div class="mainmenu">
                     <nav>
                         <ul class="list-inline mega-menu">
-                            <li class="active"><a href="index.html">Home</a>
-                                <!-- DROPDOWN MENU START -->
-                                <div class="home-var-menu">
-                                    <ul class="home-menu">
-                                        <li><a href="index.html">Home variation 1</a></li>
-                                        <li><a href="index-2.html">Home variation 2</a></li>
-                                    </ul>
-                                </div>
-                                <!-- DROPDOWN MENU END -->
+                            <li>
+                                <a href="/">Trang Chủ</a>
                             </li>
+                            <li><a href="/lien-he">Liên Hệ</a></li>
                             <li>
                                 <a href="shop-gird.html">Women</a>
                                 <!-- DRODOWN-MEGA-MENU START -->
@@ -391,7 +331,7 @@
                                 <!-- DRODOWN-MEGA-MENU END -->
                             </li>
                             <li><a href="#">Delivery</a></li>
-                            <li><a href="about-us.html">About us</a></li>
+
                         </ul>
                     </nav>
                 </div>

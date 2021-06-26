@@ -16,6 +16,7 @@ Route::get('/', 'ShopController@index');
 
 // Trang liên hệ
 Route::get('/lien-he', 'ShopController@contact');
+Route::post('/postContact', 'ShopController@postContact')->name('shop.postContact');
 
 // Trang danh mục
 Route::get('/danh-muc-san-pham', 'ShopController@listProducts');
@@ -44,5 +45,6 @@ Route::group(['prefix' => 'admin','as' => 'admin.', 'middleware' => 'checkLogin'
     Route::resource('product', 'ProductController');
     Route::resource('vendor', 'VendorController');
     Route::resource('user', 'UserController');
+    Route::resource('setting', 'SettingController');
 });
 

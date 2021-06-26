@@ -73,7 +73,7 @@
 
     <!-- STYLE CSS
 		============================================ -->
-    <link rel="stylesheet" href="/frontend/style.css">
+    <link rel="stylesheet" href="/frontend/style5.css">
 
     <!-- RESPONSIVE CSS
 		============================================ -->
